@@ -12,7 +12,6 @@ OPTS=("--allow-root" "--path=/var/www/html")
 # Install WP
 wp "${OPTS[@]}" core install --url=http://localhost:8080/  --title=vits-test --admin_user=wordpress --admin_password=wordpress --admin_email=somwhere@domain.tld --skip-email
 wp "${OPTS[@]}" rewrite structure '/%postname%/'
-wp "${OPTS[@]}" plugin install wp-extended-search
 
 # Install any other theme
 wp "${OPTS[@]}" theme install storefront
@@ -35,11 +34,12 @@ wp "${OPTS[@]}" post create   --post_type='page' \
                               --post_content='[coffee-finder]' \
                               --meta_input='{"_wp_page_template":"vits_coffee_finder_landing_page.php"}'
 
-# Install Woocommerce
+# Install Woocommerce and other WP-plugins
+wp "${OPTS[@]}" plugin install wp-extended-search
+wp "${OPTS[@]}" plugin activate wp-extended-search
 wp "${OPTS[@]}" plugin install woocommerce
 wp "${OPTS[@]}" plugin activate woocommerce
 wp "${OPTS[@]}" plugin activate vits_coffee_finder
-wp "${OPTS[@]}" plugin activate show-single-variations-premium
 wp "${OPTS[@]}" wc tool run install_pages --user=wordpress
 
 chown -R $USER_ID:33 /var/www/html/wp-content/plugins
