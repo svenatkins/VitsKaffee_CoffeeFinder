@@ -8,12 +8,35 @@
  * Author URI: https://vitsderkaffee.de/
  **/
 
+// setup admin part
+const VITS_CF_PLUGIN_PATH = WP_PLUGIN_DIR . '/vits_coffee_finder';
+require_once(VITS_CF_PLUGIN_PATH . "/admin.php");
+vits_cd_setup_admin_plugin();
 
-// place holder Code
-function dh_modify_read_more_link() {
+/**
+ * @todo How to group tags?
+ *       1. Maybe with hierarchical tags: https://css-tricks.com/how-and-why-to-convert-wordpress-tags-from-flat-to-hierarchical/
+ *       2. Maybe add a backend
+ * @link [advanced Woo Search guide](https://advanced-woo-search.com/guide/?utm_source=wp-repo&utm_medium=listing&utm_campaign=aws-repo)
+ */
+function vits_cf_print_product_tags_as_json()
+{
+    $terms = get_terms('product_tag');
+    $term_array = array();
+    if (!empty($terms) && !is_wp_error($terms)) {
+        foreach ($terms as $term) {
+            $term_array[] = $term->name;
+        }
+    }
 
-    return '<a class="more-link" href="' . get_permalink() . '">Click to Read!</a>';
-
+    //todo: temporary output
+    echo "<script>var tags=" . json_encode($term_array) . "</script>";
+    echo '<a href="http://localhost:8080/?s=schokoladig%20nussig&post_type=product">example search</a>';
 }
 
-add_filter( 'the_content_more_link', 'dh_modify_read_more_link' );
+
+add_shortcode('coffee-finder', 'vits_cf_print_product_tags_as_json');
+
+
+
+

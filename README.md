@@ -25,9 +25,14 @@ docker-compose up
 docker exec -ti wordpress /bin/bash /root/bootstrap-wp.sh
 ```
 
-All logins are `wordpress:wordpress`
+You will get your instance under http://localhost:8080 and should be able to configure it.
+All credentials are wordpress:wordpress.
 
-You will get your instance under https://localhost:8080 and should be able to configure it. 
+To initialize the Installation, go to http://localhost:8080/wp-admin/edit.php?post_type=product&page=product_importer and import the files in the `_seed` folder. Keep in mind that headers of the csv files are translated! The file in this repository are using English file headers. If you install Wordpress in a different language, you might need to use different headers. Otherwise the automatic mapping wont't work and you will miss fields.
+If the headers are correct, you don't have to do anything. Otherwise you need to fix the mapping one by one.
+
+After import configure the extended search plugin as depicted here:  
+![Extended Search WP](./docs/extended-search-settings.png)
 
 In case of any errors (and if you have no other important docker container/images on your rig):
 ```shell script
@@ -38,27 +43,3 @@ docker volume rm $(docker volume ls -q)
 
 Unfortunately this setup does not run with podman or podman-compose yet
 
-
-
-
-
-  --url=<url>
-    The address of the new site.
-
-  --title=<site-title>
-    The title of the new site.
-
-  --admin_user=<username>
-    The name of the admin user.
-
-  [--admin_password=<password>]
-    The password for the admin user. Defaults to randomly generated string.
-
-  --admin_email=<email>
-    The email address for the admin user.
-
-  [--skip-email]
-    Don't send an email notification to the new admin user.
-
-
-wp --allow-root --path=/var/www/html core install --url=http://localhost  --title=vits-test --admin_user=wordpress --admin_password=wordpress --admin-email=somwhere@domain.tld --skip-email
