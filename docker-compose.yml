@@ -35,6 +35,7 @@ services:
       - ./show-single-variations-premium:/var/www/html/wp-content/plugins/show-single-variations-premium
       - ./vits_coffee_finder_landing_page.php:/root/vits_coffee_finder_landing_page.php
       - ./bootstrap-wp.sh:/root/bootstrap-wp.sh
+      - ./reload-wp.sh:/root/reload-wp.sh
 
 
 
