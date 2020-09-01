@@ -1,8 +1,6 @@
 <?php /* Template Name: Landing Page Vits */ ?>
 
-
-<h1>Hier könnte ihre Werbung stehen</h1>
-
+<?php include '/var/www/html/wp-content/plugins/vits_coffee_finder/questions/question_base.php' ?>
 
 <?php
 // todo: optimise readability?
