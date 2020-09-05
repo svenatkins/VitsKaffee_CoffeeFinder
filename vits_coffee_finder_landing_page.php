@@ -1,6 +1,8 @@
-<?php /* Template Name: Landing Page Vits */ ?>
+<?php
+session_start();
+?>
 
-<?php include '/var/www/html/wp-content/plugins/vits_coffee_finder/questions/question_base.php' ?>
+<?php include '/var/www/html/wp-content/plugins/vits_coffee_finder/questions/vits-coffee-finder.php' ?>
 
 <?php
 // todo: optimise readability?
