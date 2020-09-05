@@ -2,7 +2,7 @@
 session_start();
 ?>
 
-<?php include '/var/www/html/wp-content/plugins/vits_coffee_finder/questions/vits-coffee-finder.php' ?>
+<?php include '/var/www/html/wp-content/plugins/vits_coffee_finder/vits-coffee-finder.php' ?>
 
 <?php
 // todo: optimise readability?

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Vits Coffee Finder</title>
     <link rel="stylesheet" href="/var/www/html/wp-content/plugins/vits_coffee_finder/css/vits-coffee-finder.css">
-    <?php include 'questions.php'; ?>
+    <?php include 'questions/questions.php'; ?>
 </head>
 <body>
     <?php
