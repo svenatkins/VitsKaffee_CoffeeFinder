@@ -14,14 +14,11 @@ else
 fi
 
 echo "Generate CSS code from SCSS code."
-pwd=$(pwd)
-if [[ $pwd =~ "vits_coffee_finder" ]]; then
-  if [[ $pwd =~ "css" ]]; then
-    sass *.scss
-  else
-    sass ./css/*.scss
-  fi
-else
-  sass ./vits_coffee_finder/css/*.scss
-fi
+cd vits_coffee_finder/css
+
+for file in *.scss; do
+  echo "Processing $file file ...";
+  sass --no-source-map $file ${file%.*}.css
+done
+
 echo "Done."
