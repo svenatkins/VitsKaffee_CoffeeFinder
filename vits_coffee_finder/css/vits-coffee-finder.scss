@@ -1,10 +1,61 @@
-// variables
-$font-color: black;
-$font-size: 12px;
-$font-family: sans-serif;
+$main-font-color:         black;
+$main-font-family:        'Open Sans', sans-serif;
+$main-font-size:          14px;
+$main-font-weight:        400;
+$main-line-height:        22px;
+$main-background-color:   #f6edde;
 
 body {
-  color: $font-color;
-  font-family: $font-family;
-  font-size: $font-size;
+  color:              $main-font-color;
+  font-family:        $main-font-family;
+  font-size:          $main-font-size;
+  font-weight:        $main-font-weight;
+  line-height:        $main-line-height;
+
+  background-color:   $main-background-color;
+}
+
+$title-font-color:          $main-font-color;
+$title-font-family:         'Open Sans Condensed';
+$title-font-size:           35px;
+$title-font-weight:         600;
+$title-line-height:         1.3em;
+$title-letter-spacing:      1px;
+
+$title-text-align:          center;
+$title-margin-top:          25px;
+$title-margin-bottom:       32px;
+$title-text-transform:      uppercase;
+$title-padding-bottom:      26px;
+
+$title-underline-border:    2px solid;
+$title-underline-width:     100px;
+$title-underline-position:  relative;
+$title-underline-top:       20px;
+$title-underline-display:   block;
+$title-underline-margin:    auto;
+
+h4 {
+  color:              $title-font-color;
+  font-family:        $title-font-family;
+  font-size:          $title-font-size;
+  font-weight:        $title-font-weight;
+  line-height:        $title-line-height;
+  letter-spacing:     $title-letter-spacing;
+
+  text-align:         $title-text-align;
+  margin-top:         $title-margin-top;
+  margin-bottom:      $title-margin-bottom;
+  text-transform:     $title-text-transform;
+  padding-bottom:     $title-padding-bottom;
+}
+
+h4::after {
+  content:            '';
+  border:             $title-underline-border;
+  width:              $title-underline-width;
+  position:           $title-underline-position;
+  top:                $title-underline-top;
+  display:            $title-underline-display;
+  margin:             $title-underline-margin;
 }

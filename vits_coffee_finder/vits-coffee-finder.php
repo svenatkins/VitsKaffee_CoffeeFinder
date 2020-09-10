@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title>Vits Coffee Finder</title>
-    <link rel="stylesheet" href="/var/www/html/wp-content/plugins/vits_coffee_finder/css/vits-coffee-finder.css">
     <?php include 'questions/questions.php'; ?>
+    <style>
+        <?php include 'css/vits-coffee-finder.css'; ?>
+    </style>
     <?php
     $currentQuestion = null;
 
@@ -39,6 +41,7 @@
     ?>
 </head>
 <body>
+    <h4>Coffee Finder</h4>
     <?php if ($_SESSION["showResult"] == true): ?>
         <!-- TODO: Remove this on production -->
         Zeige Ergebnis

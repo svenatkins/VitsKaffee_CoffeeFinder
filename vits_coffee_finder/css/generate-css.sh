@@ -17,7 +17,7 @@ echo "Generate CSS code from SCSS code."
 cd vits_coffee_finder/css
 
 for file in *.scss; do
-  echo "Processing $file file ...";
+  echo "   Processing $file file ...";
   sass --no-source-map $file ${file%.*}.css
 done
 
