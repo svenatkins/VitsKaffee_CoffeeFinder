@@ -1,3 +1,8 @@
+.answerOptions {
+  display: flex;
+  justify-content: space-around;
+}
+
 body {
   color: black;
   font-family: "Open Sans", sans-serif;

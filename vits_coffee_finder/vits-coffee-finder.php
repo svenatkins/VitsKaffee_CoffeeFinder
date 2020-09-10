@@ -52,18 +52,20 @@
         <div class="questionText">
             <?php echo htmlspecialchars($currentQuestion->getQuestionText()); ?>
         </div>
-        <div class="answerOptions">
+        <div class="form">
             <form action="<?php $_PHP_SELF ?>" method="GET">
-                <?php
-                $answerOptions = $currentQuestion->getAnswerOptions();
-                for ($i = 0; $i < count($answerOptions); ++$i) {
-                    echo '<div class="answerOption">';
-                    echo '<button type="submit" name="answerOption" value="' . htmlspecialchars($i) . '">';
-                    echo htmlspecialchars($answerOptions[$i]);
-                    echo '</button>';
-                    echo '</div>' . "\n";
-                }
-                ?>
+                <div class="answerOptions">
+                    <?php
+                    $answerOptions = $currentQuestion->getAnswerOptions();
+                    for ($i = 0; $i < count($answerOptions); ++$i) {
+                        echo '<div class="answerOption">';
+                        echo '<button type="submit" name="answerOption" value="' . htmlspecialchars($i) . '">';
+                        echo htmlspecialchars($answerOptions[$i]);
+                        echo '</button>';
+                        echo '</div>' . "\n";
+                    }
+                    ?>
+                </div>
             </form>
         </div>
     <?php endif; ?>

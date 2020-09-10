@@ -1,11 +1,10 @@
-// variables
-
 .questionText {
 
 }
 
 .answerOptions {
-
+  display: flex;
+  justify-content: space-around;
 }
 
 .answerOption {
