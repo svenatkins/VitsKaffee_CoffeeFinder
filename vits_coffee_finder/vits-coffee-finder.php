@@ -5,23 +5,46 @@
     <title>Vits Coffee Finder</title>
     <link rel="stylesheet" href="/var/www/html/wp-content/plugins/vits_coffee_finder/css/vits-coffee-finder.css">
     <?php include 'questions/questions.php'; ?>
-</head>
-<body>
     <?php
     $currentQuestion = null;
-    if (array_key_exists("currentQuestion", $_SESSION)) {
+
+    function resetSession($questions)
+    {
+        $_SESSION["currentQuestion"] = 0;
+        $_SESSION["showResult"] = false;
+        return $questions[0];
+    }
+
+    function nextQuestion($questions)
+    {
+        // TODO Logic for saving answers should be somewhere in here
         if (($_SESSION["currentQuestion"] + 1) < count($questions)) {
             $_SESSION["currentQuestion"] += 1;
-            $currentQuestion = $questions[$_SESSION["currentQuestion"]];
+            return $questions[$_SESSION["currentQuestion"]];
+        } else {
+            $_SESSION["showResult"] = true;
+            return null;
         }
-    } else {
-        $currentQuestion = $questions[0];
-        $_SESSION["currentQuestion"] = 0;
+    }
+
+    if (isset($_POST['retakeQuiz'])) {
+        $currentQuestion = resetSession($questions);
+    } else if ($_SESSION["showResult"] == false) {
+        $pageWasRefreshed = isset($_SERVER['HTTP_CACHE_CONTROL']) && $_SERVER['HTTP_CACHE_CONTROL'] === 'max-age=0';
+        if ($pageWasRefreshed)
+            $currentQuestion = $questions[$_SESSION["currentQuestion"]];
+        else
+            $currentQuestion = nextQuestion($questions);
     }
     ?>
-
-    <?php if ($currentQuestion == null): ?>
+</head>
+<body>
+    <?php if ($_SESSION["showResult"] == true): ?>
+        <!-- TODO: Remove this on production -->
         Zeige Ergebnis
+        <form method="POST">
+            <button type="submit" name="retakeQuiz">Retake Quiz</button>
+        </form>
     <?php else: ?>
         <div class="questionText">
             <?php echo htmlspecialchars($currentQuestion->getQuestionText()); ?>
