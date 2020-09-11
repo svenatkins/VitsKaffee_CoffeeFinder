@@ -29,22 +29,38 @@
         }
     }
 
+    if (!isset($_SESSION["questions"])) {
+        $_SESSION["questions"] = $questions;
+        $currentQuestion = resetSession($_SESSION["questions"]);
+    } else {
+        $questions = $_SESSION["questions"];
+    }
+
     if (isset($_POST['retakeQuiz'])) {
         $currentQuestion = resetSession($questions);
-    } else if ($_SESSION["showResult"] == false) {
+    } else if (isset($_SESSION["showResult"]) && $_SESSION["showResult"] == false) {
         $pageWasRefreshed = isset($_SERVER['HTTP_CACHE_CONTROL']) && $_SERVER['HTTP_CACHE_CONTROL'] === 'max-age=0';
         if ($pageWasRefreshed)
             $currentQuestion = $questions[$_SESSION["currentQuestion"]];
-        else
+        else {
+            echo isset($_GET["answerOption"]) ? $_GET["answerOption"] : 'Keine Antwortoption gesetzt';
+            echo $_SESSION["currentQuestion"];
+            $questions[$_SESSION["currentQuestion"]]->setChosenAnswer($_GET["answerOption"]);
             $currentQuestion = nextQuestion($questions);
+        }
     }
     ?>
 </head>
 <body>
     <h4>Coffee Finder</h4>
-    <?php if ($_SESSION["showResult"] == true): ?>
+    <?php if (isset($_SESSION["showResult"]) && $_SESSION["showResult"] == true): ?>
         <!-- TODO: Remove this on production -->
-        Zeige Ergebnis
+        Zeige Ergebnis, Antworten:
+        <?php
+        for ($i = 0; $i < count($questions); ++$i) {
+            echo htmlspecialchars($questions[$i]->getChosenAnswer()) . "\n";
+        }
+        ?>
         <form method="POST">
             <button type="submit" name="retakeQuiz">Retake Quiz</button>
         </form>

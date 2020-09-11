@@ -16,7 +16,7 @@ class Question
     /**
      * Number that represents the chosen answer of the user. The first answer option is represented as 0.
      */
-    private int $chosenAnswer;
+    private int $chosenAnswer = 0;
 
     /**
      * Initialize class, set properties.
