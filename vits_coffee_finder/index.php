@@ -4,7 +4,7 @@
  * Plugin URI: https://vitsderkaffee.de/
  * Description: A guide for customers to find the right coffee
  * Version: 1.0
- * Author: Anna Pfützner, Sven
+ * Author: Anna Wagner, Sven
  * Author URI: https://vitsderkaffee.de/
  **/
 
