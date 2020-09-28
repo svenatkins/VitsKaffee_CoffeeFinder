@@ -43,3 +43,11 @@ docker volume rm $(docker volume ls -q)
 
 Unfortunately this setup does not run with podman or podman-compose yet
 
+## TODOs
+
+- Create an [uninstall method](https://developer.wordpress.org/plugins/plugin-basics/uninstall-methods/)
+- Add method for admin to edit questions and answer options
+- Seperate public and admin code
+- Add search in database for coffee
+- Testing
+- Localization
