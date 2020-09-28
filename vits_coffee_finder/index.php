@@ -11,7 +11,7 @@
 // setup admin part
 const VITS_CF_PLUGIN_PATH = WP_PLUGIN_DIR . '/vits_coffee_finder';
 require_once(VITS_CF_PLUGIN_PATH . "/admin.php");
-vits_cd_setup_admin_plugin();
+vits_cf_setup_admin_plugin();
 
 /**
  * @todo How to group tags?

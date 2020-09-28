@@ -1,7 +1,7 @@
 <?php
 
 
-class Question
+class VitsCfQuestion
 {
     /**
      * The actual question as shown to the user.

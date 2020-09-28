@@ -5,7 +5,7 @@ function vits_cf_admin_plugin(){
     <?php
 }
 
-function vits_cd_setup_admin_plugin()
+function vits_cf_setup_admin_plugin()
 {
     add_action('admin_menu', function () {
         add_menu_page(
