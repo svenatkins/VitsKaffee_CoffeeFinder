@@ -73,7 +73,6 @@ the code generator (create-question-function-mapping.sh).
 ## TODOs
 
 - Create an [uninstall method](https://developer.wordpress.org/plugins/plugin-basics/uninstall-methods/)
-- Add method for admin to edit questions and answer options
 - Seperate public and admin code
 - Add search in database for coffee
 - Testing
