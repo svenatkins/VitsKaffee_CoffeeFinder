@@ -13,14 +13,22 @@ function vits_cf_number_of_questions_section_callback_function()
 
 function vits_cf_question_field_callback_function($i)
 {
-    echo "<input type='checkbox' name='vits_cf_question_field_" . $i . "' id='vits_cf_question_field_" . $i . "' value='1'" .
-        checked(1, get_option('vits_cf_question_field_' . $i), false) .
-        "/>";
+    echo "<input type='text' name='vits_cf_question_field_" . $i . "' id='vits_cf_question_field_" . $i . "' value='" .
+        get_option('vits_cf_question_field_' . $i, '') . "'/>";
 }
 
-function vits_cf_question_section_callback_function()
+function vits_cf_question_section_callback_function($i)
 {
-    echo '<p>Fill in your questions and answers</p>';
+}
+
+function vits_cf_answer_field_callback_function($i, $j)
+{
+    echo "<input style='margin-left: 70px' type='text' name='vits_cf_answer_field_" . $i . "_" . $j . "' id='vits_cf_answer_field_" . $i . "_" . $j . "' value='" .
+        get_option('vits_cf_answer_field_' . $i . '_' . $j, '') . "'/>";
+}
+
+function vits_cf_answer_section_callback_function()
+{
 }
 
 function vits_cf_admin_plugin()
@@ -65,23 +73,36 @@ function vits_cf_setup_admin_plugin()
             ]
         );
         register_setting('question_group', 'vits_cf_number_of_questions_field');
-        add_settings_section(
-            'vits_cf_question_section',
-            'Manage Questions and Answers',
-            'vits_cf_question_section_callback_function',
-            'reading'
-        );
         for ($i = 0; $i < get_option('vits_cf_number_of_questions_field', 1); $i++) {
+            add_settings_section(
+                'vits_cf_question_section_' . $i,
+                'Question ' . $i,
+                'vits_cf_question_section_callback_function_' . $i,
+                'reading'
+            );
             add_settings_field(
                 'vits_cf_question_field_' . $i,
-                'Question ' . $i,
+                'Question Text',
                 'vits_cf_question_field_callback_function_' . $i,
                 'reading',
-                'vits_cf_question_section',
+                'vits_cf_question_section_' . $i,
                 [
                     'label_for' => 'vits_cf_question_field_' . $i
                 ]
             );
+            for ($j = 0; $j < 3; $j++) {
+                add_settings_field(
+                    'vits_cf_answer_field_' . $i . '_' . $j,
+                    'Answer ' . $j,
+                    'vits_cf_answer_field_callback_function_' . $i . '_' . $j,
+                    'reading',
+                    'vits_cf_question_section_' . $i,
+                    [
+                        'label_for' => 'vits_cf_answer_field_' . $i . '_' . $j
+                    ]
+                );
+                register_setting('question_group', 'vits_cf_answer_field_' . $i . '_' . $j);
+            }
             register_setting('question_group', 'vits_cf_question_field_' . $i);
         }
     });
