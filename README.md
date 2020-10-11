@@ -80,3 +80,4 @@ the code generator (create-question-function-mapping.sh).
 - Localization
 - Define what happens when there are no questions or answers yet
 - Style admin area better, it's heckin atrocious
+- Make number of answer options flexible

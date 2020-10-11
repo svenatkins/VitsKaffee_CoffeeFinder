@@ -22,14 +22,21 @@ class VitsCfQuestion
      * Initialize class, set properties.
      *
      * @param string $questionText The actual question as shown to the user.
-     * @param string ...$answerOptions Array of answer options (strings) that are shown to the user for this question.
-     * @throws Exception Exception thrown if less than two answer options are passed.
+     * @param array $answerOptions Array of answer options (strings) that are shown to the user for this question.
+     * @throws Exception Exception thrown if less than two answer options passed or an answer option is not a string.
      */
-    public function __construct(string $questionText, string ...$answerOptions)
+    public function __construct(string $questionText, array $answerOptions)
     {
         // enforce more than one answer option
         if (count($answerOptions) <= 1) {
             throw new Exception("Question must have at least two answer options.");
+        }
+
+        // enforce strings as answer options
+        foreach ($answerOptions as $answerOption) {
+            if (gettype($answerOption) != "string") {
+                throw new Exception("Answer options must all be strings.");
+            }
         }
 
         $this->questionText = $questionText;
