@@ -4,7 +4,7 @@
 
 FILE=question-function-mapping.php
 if test -f "$FILE"; then
-  echo "$FILE exists. Want to recreate it? (Y/n)"
+  echo "$FILE exists. Want to recreate it?"
   select yn in "Yes" "No"; do
     case $yn in
     Yes)
@@ -36,7 +36,12 @@ for i in {0..99}; do
   echo "    vits_cf_question_field_callback_function($i);" >>$FILE
   echo "}" >>$FILE
   echo "" >>$FILE
-  for j in {0..2}; do
+  echo "function vits_cf_number_of_answers_field_callback_function_$i()" >>$FILE
+  echo "{" >>$FILE
+  echo "    vits_cf_number_of_answers_field_callback_function($i);" >>$FILE
+  echo "}" >>$FILE
+  echo "" >>$FILE
+  for j in {0..19}; do
     echo "function vits_cf_answer_field_callback_function_${i}_${j}()" >>$FILE
     echo "{" >>$FILE
     echo "    vits_cf_answer_field_callback_function($i, $j);" >>$FILE
