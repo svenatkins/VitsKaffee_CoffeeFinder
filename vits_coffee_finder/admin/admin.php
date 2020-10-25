@@ -23,8 +23,8 @@ function vits_cf_question_section_callback_function($i)
 
 function vits_cf_number_of_answers_field_callback_function($i)
 {
-    echo "<input type='number' name='vits_cf_number_of_answers_field_" . $i . "' id='vits_cf_number_of_answers_field_" . $i . "' min='1' max='20' value='" .
-        get_option('vits_cf_number_of_answers_field_' . $i . '', 1) . "'/>";
+    echo "<input type='number' name='vits_cf_number_of_answers_field_" . $i . "' id='vits_cf_number_of_answers_field_" . $i . "' min='2' max='20' value='" .
+        get_option('vits_cf_number_of_answers_field_' . $i . '', 2) . "'/>";
 }
 
 function vits_cf_answer_field_callback_function($i, $j)
@@ -108,7 +108,7 @@ function vits_cf_setup_admin_plugin()
                 ]
             );
             register_setting('question_group', 'vits_cf_number_of_answers_field_' . $i);
-            for ($j = 0; $j < get_option('vits_cf_number_of_answers_field_' . $i, 1); $j++) {
+            for ($j = 0; $j < get_option('vits_cf_number_of_answers_field_' . $i, 2); $j++) {
                 add_settings_field(
                     'vits_cf_answer_field_' . $i . '_' . $j,
                     'Answer ' . $j,
