@@ -3,7 +3,7 @@ include 'question-function-mapping.php';
 
 function vits_cf_number_of_questions_field_callback_function()
 {
-    echo "<input type='number' name='vits_cf_number_of_questions_field' id='vits_cf_number_of_questions_field' min='1' max='100' value='" .
+    echo "<input type='number' name='vits_cf_number_of_questions_field' class='vits_cf_number_of_questions_field' id='vits_cf_number_of_questions_field' min='1' max='100' value='" .
         get_option('vits_cf_number_of_questions_field', 1) . "'/>";
 }
 
@@ -13,7 +13,7 @@ function vits_cf_number_of_questions_section_callback_function()
 
 function vits_cf_question_field_callback_function($i)
 {
-    echo "<input type='text' name='vits_cf_question_field_" . $i . "' id='vits_cf_question_field_" . $i . "' value='" .
+    echo "<input type='text' name='vits_cf_question_field_" . $i . "' class='vits_cf_question_field' id='vits_cf_question_field_" . $i . "' value='" .
         get_option('vits_cf_question_field_' . $i, '') . "'/>";
 }
 
@@ -23,13 +23,13 @@ function vits_cf_question_section_callback_function($i)
 
 function vits_cf_number_of_answers_field_callback_function($i)
 {
-    echo "<input type='number' name='vits_cf_number_of_answers_field_" . $i . "' id='vits_cf_number_of_answers_field_" . $i . "' min='2' max='20' value='" .
+    echo "<input type='number' name='vits_cf_number_of_answers_field_" . $i . "' class='vits_cf_number_of_answers_field' id='vits_cf_number_of_answers_field_" . $i . "' min='2' max='20' value='" .
         get_option('vits_cf_number_of_answers_field_' . $i . '', 2) . "'/>";
 }
 
 function vits_cf_answer_field_callback_function($i, $j)
 {
-    echo "<input style='margin-left: 70px' type='text' name='vits_cf_answer_field_" . $i . "_" . $j . "' id='vits_cf_answer_field_" . $i . "_" . $j . "' value='" .
+    echo "<input type='text' name='vits_cf_answer_field_" . $i . "_" . $j . "' class='vits_cf_answer_field' id='vits_cf_answer_field_" . $i . "_" . $j . "' value='" .
         get_option('vits_cf_answer_field_' . $i . '_' . $j, '') . "'/>";
 }
 
@@ -53,6 +53,9 @@ function vits_cf_admin_plugin()
 
 function vits_cf_setup_admin_plugin()
 {
+    add_action('admin_enqueue_scripts', function() {
+        wp_enqueue_style('admin', get_template_directory_uri() . '../../../plugins/vits_coffee_finder/css/admin.css');
+    });
     add_action('admin_menu', function () {
         add_menu_page(
             __('Coffee-Finder', 'coffee-finder'),
