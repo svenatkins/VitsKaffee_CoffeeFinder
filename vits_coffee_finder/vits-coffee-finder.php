@@ -15,6 +15,7 @@
         // reset the state of the plugin and return the first question
         $_SESSION["vitsCfCurrentQuestion"] = 0;
         $_SESSION["showResult"] = false;
+        $_SESSION["level"] = 0;
         return $vitsCfQuestions[0];
     }
 
@@ -23,11 +24,21 @@
         // add the chosen answer option to the array of chosen answers
         $_SESSION["chosenAnswers"][$_SESSION["vitsCfCurrentQuestion"]] = $_GET["chosenAnswer"];
 
+        // on the first question, set the level
+        if ($_SESSION["vitsCfCurrentQuestion"] == 0) {
+            $_SESSION["level"] = $_GET["chosenAnswer"];
+        }
+
         // check if there is a next question or if it's the end of the quiz
         if (($_SESSION["vitsCfCurrentQuestion"] + 1) < count($vitsCfQuestions)) {
 
             // if a next question exists, set the marker for the current question correctly and return the question
             $_SESSION["vitsCfCurrentQuestion"] += 1;
+
+            // check if the next question is available for the current level, if not, move to the next question
+            if (!in_array($_SESSION["level"], $vitsCfQuestions[$_SESSION["vitsCfCurrentQuestion"]]->getLevels()))
+                vits_cf_next_question($vitsCfQuestions);
+
             return $vitsCfQuestions[$_SESSION["vitsCfCurrentQuestion"]];
 
         } else {

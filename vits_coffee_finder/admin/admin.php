@@ -29,8 +29,40 @@ function vits_cf_flavour_field_callback_function()
 
 function vits_cf_number_of_answers_field_callback_function($i)
 {
-    echo "<input type='number' name='vits_cf_number_of_answers_field_" . $i . "' class='vits_cf_number_of_answers_field' id='vits_cf_number_of_answers_field_" . $i . "' min='2' max='20' value='" .
-        get_option('vits_cf_number_of_answers_field_' . $i . '', 2) . "'/>";
+    echo "<input type='number' name='vits_cf_number_of_answers_field_" . $i .
+        "' class='vits_cf_number_of_answers_field' id='vits_cf_number_of_answers_field_" . $i .
+        "' min='2' max='20' value='" . get_option('vits_cf_number_of_answers_field_' . $i . '', 2) . "'/>";
+}
+
+function vits_cf_available_for_beginner_field_callback_function($i)
+{
+    $checked = "";
+    if (get_option('vits_cf_available_for_beginner_field_' . $i . '', false) == true)
+        $checked = "checked";
+
+    echo "<input type='checkbox' name='vits_cf_available_for_beginner_field_" . $i . 
+        "' class='vits_cf_available_for_beginner_field' id='vits_cf_available_for_beginner_field_" . $i .
+         "' " . $checked . "/>";
+}
+
+function vits_cf_available_for_intermediate_field_callback_function($i)
+{
+    $checked = "";
+    if (get_option('vits_cf_available_for_intermediate_field_' . $i . '', false) == true)
+        $checked = "checked";
+
+    echo "<input type='checkbox' name='vits_cf_available_for_intermediate_field_" . $i . 
+        "' class='vits_cf_available_for_intermediate_field' id='vits_cf_available_for_intermediate_field_" . $i .
+         "' " . $checked . "/>";
+}
+
+function vits_cf_available_for_nerd_field_callback_function($i)
+{
+    $checked = "";
+    if (get_option('vits_cf_available_for_nerd_field_' . $i . '', false) == true)
+        $checked = "checked";
+
+    echo "<input type='checkbox' name='vits_cf_available_for_nerd_field_" . $i . "' class='vits_cf_available_for_nerd_field' id='vits_cf_available_for_nerd_field_" . $i . "' " . $checked . "/>";
 }
 
 function vits_cf_answer_field_callback_function($i, $j)
@@ -130,6 +162,41 @@ function vits_cf_setup_admin_plugin()
                 ]
             );
             register_setting('question_group', 'vits_cf_number_of_answers_field_' . $i);
+            if ($i != 0) {
+                add_settings_field(
+                    'vits_cf_available_for_beginner_field_' . $i,
+                    'Beginner',
+                    'vits_cf_available_for_beginner_field_callback_function_' . $i,
+                    'reading',
+                    'vits_cf_question_section_' . $i,
+                    [
+                        'label_for' => 'vits_cf_available_for_beginner_field_' . $i
+                    ]
+                );
+                register_setting('question_group', 'vits_cf_available_for_beginner_field_' . $i);
+                add_settings_field(
+                    'vits_cf_available_for_intermediate_field_' . $i,
+                    'Intermediate',
+                    'vits_cf_available_for_intermediate_field_callback_function_' . $i,
+                    'reading',
+                    'vits_cf_question_section_' . $i,
+                    [
+                        'label_for' => 'vits_cf_available_for_intermediate_field_' . $i
+                    ]
+                );
+                register_setting('question_group', 'vits_cf_available_for_intermediate_field_' . $i);
+                add_settings_field(
+                    'vits_cf_available_for_nerd_field_' . $i,
+                    'Nerd',
+                    'vits_cf_available_for_nerd_field_callback_function_' . $i,
+                    'reading',
+                    'vits_cf_question_section_' . $i,
+                    [
+                        'label_for' => 'vits_cf_available_for_nerd_field_' . $i
+                    ]
+                );
+                register_setting('question_group', 'vits_cf_available_for_nerd_field_' . $i);
+            }
             for ($j = 0; $j < get_option('vits_cf_number_of_answers_field_' . $i, 2); $j++) {
                 add_settings_field(
                     'vits_cf_answer_field_' . $i . '_' . $j,

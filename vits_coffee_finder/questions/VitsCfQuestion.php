@@ -24,13 +24,18 @@ class VitsCfQuestion
     private int $chosenAnswer = 0;
 
     /**
+     * Array of levels that this question is available for.
+     */
+    private array $levels;
+
+    /**
      * Initialize class, set properties.
      *
      * @param string $questionText The actual question as shown to the user.
      * @param array $answerOptions Array of answer options (strings) that are shown to the user for this question.
      * @throws Exception Exception thrown if less than two answer options passed or an answer option is not a string.
      */
-    public function __construct(string $questionText, ?string $flavourText, array $answerOptions)
+    public function __construct(string $questionText, ?string $flavourText, array $answerOptions, array $levels)
     {
         // enforce more than one answer option
         if (count($answerOptions) <= 1) {
@@ -47,6 +52,7 @@ class VitsCfQuestion
         $this->questionText = $questionText;
         if ($flavourText) $this->flavourText = $flavourText; else $this->flavourText = "";
         $this->answerOptions = $answerOptions;
+        $this->levels = $levels;
     }
 
     /**
@@ -88,5 +94,13 @@ class VitsCfQuestion
     public function setChosenAnswer(int $chosenAnswer): void
     {
         $this->chosenAnswer = $chosenAnswer;
+    }
+
+    /**
+     * @return array Array of levels that this question is available for.
+     */
+    public function getLevels(): array
+    {
+        return $this->levels;
     }
 }

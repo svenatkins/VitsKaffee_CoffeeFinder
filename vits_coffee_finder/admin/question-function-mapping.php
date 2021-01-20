@@ -16,6 +16,21 @@ function vits_cf_number_of_answers_field_callback_function_0()
     vits_cf_number_of_answers_field_callback_function(0);
 }
 
+function vits_cf_available_for_beginner_field_callback_function_0()
+{
+    vits_cf_available_for_beginner_field_callback_function(0);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_0()
+{
+    vits_cf_available_for_intermediate_field_callback_function(0);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_0()
+{
+    vits_cf_available_for_nerd_field_callback_function(0);
+}
+
 function vits_cf_answer_field_callback_function_0_0()
 {
     vits_cf_answer_field_callback_function(0, 0);
@@ -129,6 +144,21 @@ function vits_cf_question_field_callback_function_1()
 function vits_cf_number_of_answers_field_callback_function_1()
 {
     vits_cf_number_of_answers_field_callback_function(1);
+}
+
+function vits_cf_available_for_beginner_field_callback_function_1()
+{
+    vits_cf_available_for_beginner_field_callback_function(1);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_1()
+{
+    vits_cf_available_for_intermediate_field_callback_function(1);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_1()
+{
+    vits_cf_available_for_nerd_field_callback_function(1);
 }
 
 function vits_cf_answer_field_callback_function_1_0()
@@ -246,6 +276,21 @@ function vits_cf_number_of_answers_field_callback_function_2()
     vits_cf_number_of_answers_field_callback_function(2);
 }
 
+function vits_cf_available_for_beginner_field_callback_function_2()
+{
+    vits_cf_available_for_beginner_field_callback_function(2);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_2()
+{
+    vits_cf_available_for_intermediate_field_callback_function(2);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_2()
+{
+    vits_cf_available_for_nerd_field_callback_function(2);
+}
+
 function vits_cf_answer_field_callback_function_2_0()
 {
     vits_cf_answer_field_callback_function(2, 0);
@@ -359,6 +404,21 @@ function vits_cf_question_field_callback_function_3()
 function vits_cf_number_of_answers_field_callback_function_3()
 {
     vits_cf_number_of_answers_field_callback_function(3);
+}
+
+function vits_cf_available_for_beginner_field_callback_function_3()
+{
+    vits_cf_available_for_beginner_field_callback_function(3);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_3()
+{
+    vits_cf_available_for_intermediate_field_callback_function(3);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_3()
+{
+    vits_cf_available_for_nerd_field_callback_function(3);
 }
 
 function vits_cf_answer_field_callback_function_3_0()
@@ -476,6 +536,21 @@ function vits_cf_number_of_answers_field_callback_function_4()
     vits_cf_number_of_answers_field_callback_function(4);
 }
 
+function vits_cf_available_for_beginner_field_callback_function_4()
+{
+    vits_cf_available_for_beginner_field_callback_function(4);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_4()
+{
+    vits_cf_available_for_intermediate_field_callback_function(4);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_4()
+{
+    vits_cf_available_for_nerd_field_callback_function(4);
+}
+
 function vits_cf_answer_field_callback_function_4_0()
 {
     vits_cf_answer_field_callback_function(4, 0);
@@ -589,6 +664,21 @@ function vits_cf_question_field_callback_function_5()
 function vits_cf_number_of_answers_field_callback_function_5()
 {
     vits_cf_number_of_answers_field_callback_function(5);
+}
+
+function vits_cf_available_for_beginner_field_callback_function_5()
+{
+    vits_cf_available_for_beginner_field_callback_function(5);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_5()
+{
+    vits_cf_available_for_intermediate_field_callback_function(5);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_5()
+{
+    vits_cf_available_for_nerd_field_callback_function(5);
 }
 
 function vits_cf_answer_field_callback_function_5_0()
@@ -706,6 +796,21 @@ function vits_cf_number_of_answers_field_callback_function_6()
     vits_cf_number_of_answers_field_callback_function(6);
 }
 
+function vits_cf_available_for_beginner_field_callback_function_6()
+{
+    vits_cf_available_for_beginner_field_callback_function(6);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_6()
+{
+    vits_cf_available_for_intermediate_field_callback_function(6);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_6()
+{
+    vits_cf_available_for_nerd_field_callback_function(6);
+}
+
 function vits_cf_answer_field_callback_function_6_0()
 {
     vits_cf_answer_field_callback_function(6, 0);
@@ -819,6 +924,21 @@ function vits_cf_question_field_callback_function_7()
 function vits_cf_number_of_answers_field_callback_function_7()
 {
     vits_cf_number_of_answers_field_callback_function(7);
+}
+
+function vits_cf_available_for_beginner_field_callback_function_7()
+{
+    vits_cf_available_for_beginner_field_callback_function(7);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_7()
+{
+    vits_cf_available_for_intermediate_field_callback_function(7);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_7()
+{
+    vits_cf_available_for_nerd_field_callback_function(7);
 }
 
 function vits_cf_answer_field_callback_function_7_0()
@@ -936,6 +1056,21 @@ function vits_cf_number_of_answers_field_callback_function_8()
     vits_cf_number_of_answers_field_callback_function(8);
 }
 
+function vits_cf_available_for_beginner_field_callback_function_8()
+{
+    vits_cf_available_for_beginner_field_callback_function(8);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_8()
+{
+    vits_cf_available_for_intermediate_field_callback_function(8);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_8()
+{
+    vits_cf_available_for_nerd_field_callback_function(8);
+}
+
 function vits_cf_answer_field_callback_function_8_0()
 {
     vits_cf_answer_field_callback_function(8, 0);
@@ -1049,6 +1184,21 @@ function vits_cf_question_field_callback_function_9()
 function vits_cf_number_of_answers_field_callback_function_9()
 {
     vits_cf_number_of_answers_field_callback_function(9);
+}
+
+function vits_cf_available_for_beginner_field_callback_function_9()
+{
+    vits_cf_available_for_beginner_field_callback_function(9);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_9()
+{
+    vits_cf_available_for_intermediate_field_callback_function(9);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_9()
+{
+    vits_cf_available_for_nerd_field_callback_function(9);
 }
 
 function vits_cf_answer_field_callback_function_9_0()
@@ -1166,6 +1316,21 @@ function vits_cf_number_of_answers_field_callback_function_10()
     vits_cf_number_of_answers_field_callback_function(10);
 }
 
+function vits_cf_available_for_beginner_field_callback_function_10()
+{
+    vits_cf_available_for_beginner_field_callback_function(10);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_10()
+{
+    vits_cf_available_for_intermediate_field_callback_function(10);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_10()
+{
+    vits_cf_available_for_nerd_field_callback_function(10);
+}
+
 function vits_cf_answer_field_callback_function_10_0()
 {
     vits_cf_answer_field_callback_function(10, 0);
@@ -1279,6 +1444,21 @@ function vits_cf_question_field_callback_function_11()
 function vits_cf_number_of_answers_field_callback_function_11()
 {
     vits_cf_number_of_answers_field_callback_function(11);
+}
+
+function vits_cf_available_for_beginner_field_callback_function_11()
+{
+    vits_cf_available_for_beginner_field_callback_function(11);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_11()
+{
+    vits_cf_available_for_intermediate_field_callback_function(11);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_11()
+{
+    vits_cf_available_for_nerd_field_callback_function(11);
 }
 
 function vits_cf_answer_field_callback_function_11_0()
@@ -1396,6 +1576,21 @@ function vits_cf_number_of_answers_field_callback_function_12()
     vits_cf_number_of_answers_field_callback_function(12);
 }
 
+function vits_cf_available_for_beginner_field_callback_function_12()
+{
+    vits_cf_available_for_beginner_field_callback_function(12);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_12()
+{
+    vits_cf_available_for_intermediate_field_callback_function(12);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_12()
+{
+    vits_cf_available_for_nerd_field_callback_function(12);
+}
+
 function vits_cf_answer_field_callback_function_12_0()
 {
     vits_cf_answer_field_callback_function(12, 0);
@@ -1509,6 +1704,21 @@ function vits_cf_question_field_callback_function_13()
 function vits_cf_number_of_answers_field_callback_function_13()
 {
     vits_cf_number_of_answers_field_callback_function(13);
+}
+
+function vits_cf_available_for_beginner_field_callback_function_13()
+{
+    vits_cf_available_for_beginner_field_callback_function(13);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_13()
+{
+    vits_cf_available_for_intermediate_field_callback_function(13);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_13()
+{
+    vits_cf_available_for_nerd_field_callback_function(13);
 }
 
 function vits_cf_answer_field_callback_function_13_0()
@@ -1626,6 +1836,21 @@ function vits_cf_number_of_answers_field_callback_function_14()
     vits_cf_number_of_answers_field_callback_function(14);
 }
 
+function vits_cf_available_for_beginner_field_callback_function_14()
+{
+    vits_cf_available_for_beginner_field_callback_function(14);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_14()
+{
+    vits_cf_available_for_intermediate_field_callback_function(14);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_14()
+{
+    vits_cf_available_for_nerd_field_callback_function(14);
+}
+
 function vits_cf_answer_field_callback_function_14_0()
 {
     vits_cf_answer_field_callback_function(14, 0);
@@ -1739,6 +1964,21 @@ function vits_cf_question_field_callback_function_15()
 function vits_cf_number_of_answers_field_callback_function_15()
 {
     vits_cf_number_of_answers_field_callback_function(15);
+}
+
+function vits_cf_available_for_beginner_field_callback_function_15()
+{
+    vits_cf_available_for_beginner_field_callback_function(15);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_15()
+{
+    vits_cf_available_for_intermediate_field_callback_function(15);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_15()
+{
+    vits_cf_available_for_nerd_field_callback_function(15);
 }
 
 function vits_cf_answer_field_callback_function_15_0()
@@ -1856,6 +2096,21 @@ function vits_cf_number_of_answers_field_callback_function_16()
     vits_cf_number_of_answers_field_callback_function(16);
 }
 
+function vits_cf_available_for_beginner_field_callback_function_16()
+{
+    vits_cf_available_for_beginner_field_callback_function(16);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_16()
+{
+    vits_cf_available_for_intermediate_field_callback_function(16);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_16()
+{
+    vits_cf_available_for_nerd_field_callback_function(16);
+}
+
 function vits_cf_answer_field_callback_function_16_0()
 {
     vits_cf_answer_field_callback_function(16, 0);
@@ -1969,6 +2224,21 @@ function vits_cf_question_field_callback_function_17()
 function vits_cf_number_of_answers_field_callback_function_17()
 {
     vits_cf_number_of_answers_field_callback_function(17);
+}
+
+function vits_cf_available_for_beginner_field_callback_function_17()
+{
+    vits_cf_available_for_beginner_field_callback_function(17);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_17()
+{
+    vits_cf_available_for_intermediate_field_callback_function(17);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_17()
+{
+    vits_cf_available_for_nerd_field_callback_function(17);
 }
 
 function vits_cf_answer_field_callback_function_17_0()
@@ -2086,6 +2356,21 @@ function vits_cf_number_of_answers_field_callback_function_18()
     vits_cf_number_of_answers_field_callback_function(18);
 }
 
+function vits_cf_available_for_beginner_field_callback_function_18()
+{
+    vits_cf_available_for_beginner_field_callback_function(18);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_18()
+{
+    vits_cf_available_for_intermediate_field_callback_function(18);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_18()
+{
+    vits_cf_available_for_nerd_field_callback_function(18);
+}
+
 function vits_cf_answer_field_callback_function_18_0()
 {
     vits_cf_answer_field_callback_function(18, 0);
@@ -2199,6 +2484,21 @@ function vits_cf_question_field_callback_function_19()
 function vits_cf_number_of_answers_field_callback_function_19()
 {
     vits_cf_number_of_answers_field_callback_function(19);
+}
+
+function vits_cf_available_for_beginner_field_callback_function_19()
+{
+    vits_cf_available_for_beginner_field_callback_function(19);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_19()
+{
+    vits_cf_available_for_intermediate_field_callback_function(19);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_19()
+{
+    vits_cf_available_for_nerd_field_callback_function(19);
 }
 
 function vits_cf_answer_field_callback_function_19_0()
@@ -2316,6 +2616,21 @@ function vits_cf_number_of_answers_field_callback_function_20()
     vits_cf_number_of_answers_field_callback_function(20);
 }
 
+function vits_cf_available_for_beginner_field_callback_function_20()
+{
+    vits_cf_available_for_beginner_field_callback_function(20);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_20()
+{
+    vits_cf_available_for_intermediate_field_callback_function(20);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_20()
+{
+    vits_cf_available_for_nerd_field_callback_function(20);
+}
+
 function vits_cf_answer_field_callback_function_20_0()
 {
     vits_cf_answer_field_callback_function(20, 0);
@@ -2429,6 +2744,21 @@ function vits_cf_question_field_callback_function_21()
 function vits_cf_number_of_answers_field_callback_function_21()
 {
     vits_cf_number_of_answers_field_callback_function(21);
+}
+
+function vits_cf_available_for_beginner_field_callback_function_21()
+{
+    vits_cf_available_for_beginner_field_callback_function(21);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_21()
+{
+    vits_cf_available_for_intermediate_field_callback_function(21);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_21()
+{
+    vits_cf_available_for_nerd_field_callback_function(21);
 }
 
 function vits_cf_answer_field_callback_function_21_0()
@@ -2546,6 +2876,21 @@ function vits_cf_number_of_answers_field_callback_function_22()
     vits_cf_number_of_answers_field_callback_function(22);
 }
 
+function vits_cf_available_for_beginner_field_callback_function_22()
+{
+    vits_cf_available_for_beginner_field_callback_function(22);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_22()
+{
+    vits_cf_available_for_intermediate_field_callback_function(22);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_22()
+{
+    vits_cf_available_for_nerd_field_callback_function(22);
+}
+
 function vits_cf_answer_field_callback_function_22_0()
 {
     vits_cf_answer_field_callback_function(22, 0);
@@ -2659,6 +3004,21 @@ function vits_cf_question_field_callback_function_23()
 function vits_cf_number_of_answers_field_callback_function_23()
 {
     vits_cf_number_of_answers_field_callback_function(23);
+}
+
+function vits_cf_available_for_beginner_field_callback_function_23()
+{
+    vits_cf_available_for_beginner_field_callback_function(23);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_23()
+{
+    vits_cf_available_for_intermediate_field_callback_function(23);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_23()
+{
+    vits_cf_available_for_nerd_field_callback_function(23);
 }
 
 function vits_cf_answer_field_callback_function_23_0()
@@ -2776,6 +3136,21 @@ function vits_cf_number_of_answers_field_callback_function_24()
     vits_cf_number_of_answers_field_callback_function(24);
 }
 
+function vits_cf_available_for_beginner_field_callback_function_24()
+{
+    vits_cf_available_for_beginner_field_callback_function(24);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_24()
+{
+    vits_cf_available_for_intermediate_field_callback_function(24);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_24()
+{
+    vits_cf_available_for_nerd_field_callback_function(24);
+}
+
 function vits_cf_answer_field_callback_function_24_0()
 {
     vits_cf_answer_field_callback_function(24, 0);
@@ -2889,6 +3264,21 @@ function vits_cf_question_field_callback_function_25()
 function vits_cf_number_of_answers_field_callback_function_25()
 {
     vits_cf_number_of_answers_field_callback_function(25);
+}
+
+function vits_cf_available_for_beginner_field_callback_function_25()
+{
+    vits_cf_available_for_beginner_field_callback_function(25);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_25()
+{
+    vits_cf_available_for_intermediate_field_callback_function(25);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_25()
+{
+    vits_cf_available_for_nerd_field_callback_function(25);
 }
 
 function vits_cf_answer_field_callback_function_25_0()
@@ -3006,6 +3396,21 @@ function vits_cf_number_of_answers_field_callback_function_26()
     vits_cf_number_of_answers_field_callback_function(26);
 }
 
+function vits_cf_available_for_beginner_field_callback_function_26()
+{
+    vits_cf_available_for_beginner_field_callback_function(26);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_26()
+{
+    vits_cf_available_for_intermediate_field_callback_function(26);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_26()
+{
+    vits_cf_available_for_nerd_field_callback_function(26);
+}
+
 function vits_cf_answer_field_callback_function_26_0()
 {
     vits_cf_answer_field_callback_function(26, 0);
@@ -3119,6 +3524,21 @@ function vits_cf_question_field_callback_function_27()
 function vits_cf_number_of_answers_field_callback_function_27()
 {
     vits_cf_number_of_answers_field_callback_function(27);
+}
+
+function vits_cf_available_for_beginner_field_callback_function_27()
+{
+    vits_cf_available_for_beginner_field_callback_function(27);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_27()
+{
+    vits_cf_available_for_intermediate_field_callback_function(27);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_27()
+{
+    vits_cf_available_for_nerd_field_callback_function(27);
 }
 
 function vits_cf_answer_field_callback_function_27_0()
@@ -3236,6 +3656,21 @@ function vits_cf_number_of_answers_field_callback_function_28()
     vits_cf_number_of_answers_field_callback_function(28);
 }
 
+function vits_cf_available_for_beginner_field_callback_function_28()
+{
+    vits_cf_available_for_beginner_field_callback_function(28);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_28()
+{
+    vits_cf_available_for_intermediate_field_callback_function(28);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_28()
+{
+    vits_cf_available_for_nerd_field_callback_function(28);
+}
+
 function vits_cf_answer_field_callback_function_28_0()
 {
     vits_cf_answer_field_callback_function(28, 0);
@@ -3349,6 +3784,21 @@ function vits_cf_question_field_callback_function_29()
 function vits_cf_number_of_answers_field_callback_function_29()
 {
     vits_cf_number_of_answers_field_callback_function(29);
+}
+
+function vits_cf_available_for_beginner_field_callback_function_29()
+{
+    vits_cf_available_for_beginner_field_callback_function(29);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_29()
+{
+    vits_cf_available_for_intermediate_field_callback_function(29);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_29()
+{
+    vits_cf_available_for_nerd_field_callback_function(29);
 }
 
 function vits_cf_answer_field_callback_function_29_0()
@@ -3466,6 +3916,21 @@ function vits_cf_number_of_answers_field_callback_function_30()
     vits_cf_number_of_answers_field_callback_function(30);
 }
 
+function vits_cf_available_for_beginner_field_callback_function_30()
+{
+    vits_cf_available_for_beginner_field_callback_function(30);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_30()
+{
+    vits_cf_available_for_intermediate_field_callback_function(30);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_30()
+{
+    vits_cf_available_for_nerd_field_callback_function(30);
+}
+
 function vits_cf_answer_field_callback_function_30_0()
 {
     vits_cf_answer_field_callback_function(30, 0);
@@ -3579,6 +4044,21 @@ function vits_cf_question_field_callback_function_31()
 function vits_cf_number_of_answers_field_callback_function_31()
 {
     vits_cf_number_of_answers_field_callback_function(31);
+}
+
+function vits_cf_available_for_beginner_field_callback_function_31()
+{
+    vits_cf_available_for_beginner_field_callback_function(31);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_31()
+{
+    vits_cf_available_for_intermediate_field_callback_function(31);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_31()
+{
+    vits_cf_available_for_nerd_field_callback_function(31);
 }
 
 function vits_cf_answer_field_callback_function_31_0()
@@ -3696,6 +4176,21 @@ function vits_cf_number_of_answers_field_callback_function_32()
     vits_cf_number_of_answers_field_callback_function(32);
 }
 
+function vits_cf_available_for_beginner_field_callback_function_32()
+{
+    vits_cf_available_for_beginner_field_callback_function(32);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_32()
+{
+    vits_cf_available_for_intermediate_field_callback_function(32);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_32()
+{
+    vits_cf_available_for_nerd_field_callback_function(32);
+}
+
 function vits_cf_answer_field_callback_function_32_0()
 {
     vits_cf_answer_field_callback_function(32, 0);
@@ -3809,6 +4304,21 @@ function vits_cf_question_field_callback_function_33()
 function vits_cf_number_of_answers_field_callback_function_33()
 {
     vits_cf_number_of_answers_field_callback_function(33);
+}
+
+function vits_cf_available_for_beginner_field_callback_function_33()
+{
+    vits_cf_available_for_beginner_field_callback_function(33);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_33()
+{
+    vits_cf_available_for_intermediate_field_callback_function(33);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_33()
+{
+    vits_cf_available_for_nerd_field_callback_function(33);
 }
 
 function vits_cf_answer_field_callback_function_33_0()
@@ -3926,6 +4436,21 @@ function vits_cf_number_of_answers_field_callback_function_34()
     vits_cf_number_of_answers_field_callback_function(34);
 }
 
+function vits_cf_available_for_beginner_field_callback_function_34()
+{
+    vits_cf_available_for_beginner_field_callback_function(34);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_34()
+{
+    vits_cf_available_for_intermediate_field_callback_function(34);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_34()
+{
+    vits_cf_available_for_nerd_field_callback_function(34);
+}
+
 function vits_cf_answer_field_callback_function_34_0()
 {
     vits_cf_answer_field_callback_function(34, 0);
@@ -4039,6 +4564,21 @@ function vits_cf_question_field_callback_function_35()
 function vits_cf_number_of_answers_field_callback_function_35()
 {
     vits_cf_number_of_answers_field_callback_function(35);
+}
+
+function vits_cf_available_for_beginner_field_callback_function_35()
+{
+    vits_cf_available_for_beginner_field_callback_function(35);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_35()
+{
+    vits_cf_available_for_intermediate_field_callback_function(35);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_35()
+{
+    vits_cf_available_for_nerd_field_callback_function(35);
 }
 
 function vits_cf_answer_field_callback_function_35_0()
@@ -4156,6 +4696,21 @@ function vits_cf_number_of_answers_field_callback_function_36()
     vits_cf_number_of_answers_field_callback_function(36);
 }
 
+function vits_cf_available_for_beginner_field_callback_function_36()
+{
+    vits_cf_available_for_beginner_field_callback_function(36);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_36()
+{
+    vits_cf_available_for_intermediate_field_callback_function(36);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_36()
+{
+    vits_cf_available_for_nerd_field_callback_function(36);
+}
+
 function vits_cf_answer_field_callback_function_36_0()
 {
     vits_cf_answer_field_callback_function(36, 0);
@@ -4269,6 +4824,21 @@ function vits_cf_question_field_callback_function_37()
 function vits_cf_number_of_answers_field_callback_function_37()
 {
     vits_cf_number_of_answers_field_callback_function(37);
+}
+
+function vits_cf_available_for_beginner_field_callback_function_37()
+{
+    vits_cf_available_for_beginner_field_callback_function(37);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_37()
+{
+    vits_cf_available_for_intermediate_field_callback_function(37);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_37()
+{
+    vits_cf_available_for_nerd_field_callback_function(37);
 }
 
 function vits_cf_answer_field_callback_function_37_0()
@@ -4386,6 +4956,21 @@ function vits_cf_number_of_answers_field_callback_function_38()
     vits_cf_number_of_answers_field_callback_function(38);
 }
 
+function vits_cf_available_for_beginner_field_callback_function_38()
+{
+    vits_cf_available_for_beginner_field_callback_function(38);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_38()
+{
+    vits_cf_available_for_intermediate_field_callback_function(38);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_38()
+{
+    vits_cf_available_for_nerd_field_callback_function(38);
+}
+
 function vits_cf_answer_field_callback_function_38_0()
 {
     vits_cf_answer_field_callback_function(38, 0);
@@ -4499,6 +5084,21 @@ function vits_cf_question_field_callback_function_39()
 function vits_cf_number_of_answers_field_callback_function_39()
 {
     vits_cf_number_of_answers_field_callback_function(39);
+}
+
+function vits_cf_available_for_beginner_field_callback_function_39()
+{
+    vits_cf_available_for_beginner_field_callback_function(39);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_39()
+{
+    vits_cf_available_for_intermediate_field_callback_function(39);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_39()
+{
+    vits_cf_available_for_nerd_field_callback_function(39);
 }
 
 function vits_cf_answer_field_callback_function_39_0()
@@ -4616,6 +5216,21 @@ function vits_cf_number_of_answers_field_callback_function_40()
     vits_cf_number_of_answers_field_callback_function(40);
 }
 
+function vits_cf_available_for_beginner_field_callback_function_40()
+{
+    vits_cf_available_for_beginner_field_callback_function(40);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_40()
+{
+    vits_cf_available_for_intermediate_field_callback_function(40);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_40()
+{
+    vits_cf_available_for_nerd_field_callback_function(40);
+}
+
 function vits_cf_answer_field_callback_function_40_0()
 {
     vits_cf_answer_field_callback_function(40, 0);
@@ -4729,6 +5344,21 @@ function vits_cf_question_field_callback_function_41()
 function vits_cf_number_of_answers_field_callback_function_41()
 {
     vits_cf_number_of_answers_field_callback_function(41);
+}
+
+function vits_cf_available_for_beginner_field_callback_function_41()
+{
+    vits_cf_available_for_beginner_field_callback_function(41);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_41()
+{
+    vits_cf_available_for_intermediate_field_callback_function(41);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_41()
+{
+    vits_cf_available_for_nerd_field_callback_function(41);
 }
 
 function vits_cf_answer_field_callback_function_41_0()
@@ -4846,6 +5476,21 @@ function vits_cf_number_of_answers_field_callback_function_42()
     vits_cf_number_of_answers_field_callback_function(42);
 }
 
+function vits_cf_available_for_beginner_field_callback_function_42()
+{
+    vits_cf_available_for_beginner_field_callback_function(42);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_42()
+{
+    vits_cf_available_for_intermediate_field_callback_function(42);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_42()
+{
+    vits_cf_available_for_nerd_field_callback_function(42);
+}
+
 function vits_cf_answer_field_callback_function_42_0()
 {
     vits_cf_answer_field_callback_function(42, 0);
@@ -4959,6 +5604,21 @@ function vits_cf_question_field_callback_function_43()
 function vits_cf_number_of_answers_field_callback_function_43()
 {
     vits_cf_number_of_answers_field_callback_function(43);
+}
+
+function vits_cf_available_for_beginner_field_callback_function_43()
+{
+    vits_cf_available_for_beginner_field_callback_function(43);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_43()
+{
+    vits_cf_available_for_intermediate_field_callback_function(43);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_43()
+{
+    vits_cf_available_for_nerd_field_callback_function(43);
 }
 
 function vits_cf_answer_field_callback_function_43_0()
@@ -5076,6 +5736,21 @@ function vits_cf_number_of_answers_field_callback_function_44()
     vits_cf_number_of_answers_field_callback_function(44);
 }
 
+function vits_cf_available_for_beginner_field_callback_function_44()
+{
+    vits_cf_available_for_beginner_field_callback_function(44);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_44()
+{
+    vits_cf_available_for_intermediate_field_callback_function(44);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_44()
+{
+    vits_cf_available_for_nerd_field_callback_function(44);
+}
+
 function vits_cf_answer_field_callback_function_44_0()
 {
     vits_cf_answer_field_callback_function(44, 0);
@@ -5189,6 +5864,21 @@ function vits_cf_question_field_callback_function_45()
 function vits_cf_number_of_answers_field_callback_function_45()
 {
     vits_cf_number_of_answers_field_callback_function(45);
+}
+
+function vits_cf_available_for_beginner_field_callback_function_45()
+{
+    vits_cf_available_for_beginner_field_callback_function(45);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_45()
+{
+    vits_cf_available_for_intermediate_field_callback_function(45);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_45()
+{
+    vits_cf_available_for_nerd_field_callback_function(45);
 }
 
 function vits_cf_answer_field_callback_function_45_0()
@@ -5306,6 +5996,21 @@ function vits_cf_number_of_answers_field_callback_function_46()
     vits_cf_number_of_answers_field_callback_function(46);
 }
 
+function vits_cf_available_for_beginner_field_callback_function_46()
+{
+    vits_cf_available_for_beginner_field_callback_function(46);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_46()
+{
+    vits_cf_available_for_intermediate_field_callback_function(46);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_46()
+{
+    vits_cf_available_for_nerd_field_callback_function(46);
+}
+
 function vits_cf_answer_field_callback_function_46_0()
 {
     vits_cf_answer_field_callback_function(46, 0);
@@ -5419,6 +6124,21 @@ function vits_cf_question_field_callback_function_47()
 function vits_cf_number_of_answers_field_callback_function_47()
 {
     vits_cf_number_of_answers_field_callback_function(47);
+}
+
+function vits_cf_available_for_beginner_field_callback_function_47()
+{
+    vits_cf_available_for_beginner_field_callback_function(47);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_47()
+{
+    vits_cf_available_for_intermediate_field_callback_function(47);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_47()
+{
+    vits_cf_available_for_nerd_field_callback_function(47);
 }
 
 function vits_cf_answer_field_callback_function_47_0()
@@ -5536,6 +6256,21 @@ function vits_cf_number_of_answers_field_callback_function_48()
     vits_cf_number_of_answers_field_callback_function(48);
 }
 
+function vits_cf_available_for_beginner_field_callback_function_48()
+{
+    vits_cf_available_for_beginner_field_callback_function(48);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_48()
+{
+    vits_cf_available_for_intermediate_field_callback_function(48);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_48()
+{
+    vits_cf_available_for_nerd_field_callback_function(48);
+}
+
 function vits_cf_answer_field_callback_function_48_0()
 {
     vits_cf_answer_field_callback_function(48, 0);
@@ -5649,6 +6384,21 @@ function vits_cf_question_field_callback_function_49()
 function vits_cf_number_of_answers_field_callback_function_49()
 {
     vits_cf_number_of_answers_field_callback_function(49);
+}
+
+function vits_cf_available_for_beginner_field_callback_function_49()
+{
+    vits_cf_available_for_beginner_field_callback_function(49);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_49()
+{
+    vits_cf_available_for_intermediate_field_callback_function(49);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_49()
+{
+    vits_cf_available_for_nerd_field_callback_function(49);
 }
 
 function vits_cf_answer_field_callback_function_49_0()
@@ -5766,6 +6516,21 @@ function vits_cf_number_of_answers_field_callback_function_50()
     vits_cf_number_of_answers_field_callback_function(50);
 }
 
+function vits_cf_available_for_beginner_field_callback_function_50()
+{
+    vits_cf_available_for_beginner_field_callback_function(50);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_50()
+{
+    vits_cf_available_for_intermediate_field_callback_function(50);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_50()
+{
+    vits_cf_available_for_nerd_field_callback_function(50);
+}
+
 function vits_cf_answer_field_callback_function_50_0()
 {
     vits_cf_answer_field_callback_function(50, 0);
@@ -5879,6 +6644,21 @@ function vits_cf_question_field_callback_function_51()
 function vits_cf_number_of_answers_field_callback_function_51()
 {
     vits_cf_number_of_answers_field_callback_function(51);
+}
+
+function vits_cf_available_for_beginner_field_callback_function_51()
+{
+    vits_cf_available_for_beginner_field_callback_function(51);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_51()
+{
+    vits_cf_available_for_intermediate_field_callback_function(51);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_51()
+{
+    vits_cf_available_for_nerd_field_callback_function(51);
 }
 
 function vits_cf_answer_field_callback_function_51_0()
@@ -5996,6 +6776,21 @@ function vits_cf_number_of_answers_field_callback_function_52()
     vits_cf_number_of_answers_field_callback_function(52);
 }
 
+function vits_cf_available_for_beginner_field_callback_function_52()
+{
+    vits_cf_available_for_beginner_field_callback_function(52);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_52()
+{
+    vits_cf_available_for_intermediate_field_callback_function(52);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_52()
+{
+    vits_cf_available_for_nerd_field_callback_function(52);
+}
+
 function vits_cf_answer_field_callback_function_52_0()
 {
     vits_cf_answer_field_callback_function(52, 0);
@@ -6109,6 +6904,21 @@ function vits_cf_question_field_callback_function_53()
 function vits_cf_number_of_answers_field_callback_function_53()
 {
     vits_cf_number_of_answers_field_callback_function(53);
+}
+
+function vits_cf_available_for_beginner_field_callback_function_53()
+{
+    vits_cf_available_for_beginner_field_callback_function(53);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_53()
+{
+    vits_cf_available_for_intermediate_field_callback_function(53);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_53()
+{
+    vits_cf_available_for_nerd_field_callback_function(53);
 }
 
 function vits_cf_answer_field_callback_function_53_0()
@@ -6226,6 +7036,21 @@ function vits_cf_number_of_answers_field_callback_function_54()
     vits_cf_number_of_answers_field_callback_function(54);
 }
 
+function vits_cf_available_for_beginner_field_callback_function_54()
+{
+    vits_cf_available_for_beginner_field_callback_function(54);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_54()
+{
+    vits_cf_available_for_intermediate_field_callback_function(54);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_54()
+{
+    vits_cf_available_for_nerd_field_callback_function(54);
+}
+
 function vits_cf_answer_field_callback_function_54_0()
 {
     vits_cf_answer_field_callback_function(54, 0);
@@ -6339,6 +7164,21 @@ function vits_cf_question_field_callback_function_55()
 function vits_cf_number_of_answers_field_callback_function_55()
 {
     vits_cf_number_of_answers_field_callback_function(55);
+}
+
+function vits_cf_available_for_beginner_field_callback_function_55()
+{
+    vits_cf_available_for_beginner_field_callback_function(55);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_55()
+{
+    vits_cf_available_for_intermediate_field_callback_function(55);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_55()
+{
+    vits_cf_available_for_nerd_field_callback_function(55);
 }
 
 function vits_cf_answer_field_callback_function_55_0()
@@ -6456,6 +7296,21 @@ function vits_cf_number_of_answers_field_callback_function_56()
     vits_cf_number_of_answers_field_callback_function(56);
 }
 
+function vits_cf_available_for_beginner_field_callback_function_56()
+{
+    vits_cf_available_for_beginner_field_callback_function(56);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_56()
+{
+    vits_cf_available_for_intermediate_field_callback_function(56);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_56()
+{
+    vits_cf_available_for_nerd_field_callback_function(56);
+}
+
 function vits_cf_answer_field_callback_function_56_0()
 {
     vits_cf_answer_field_callback_function(56, 0);
@@ -6569,6 +7424,21 @@ function vits_cf_question_field_callback_function_57()
 function vits_cf_number_of_answers_field_callback_function_57()
 {
     vits_cf_number_of_answers_field_callback_function(57);
+}
+
+function vits_cf_available_for_beginner_field_callback_function_57()
+{
+    vits_cf_available_for_beginner_field_callback_function(57);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_57()
+{
+    vits_cf_available_for_intermediate_field_callback_function(57);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_57()
+{
+    vits_cf_available_for_nerd_field_callback_function(57);
 }
 
 function vits_cf_answer_field_callback_function_57_0()
@@ -6686,6 +7556,21 @@ function vits_cf_number_of_answers_field_callback_function_58()
     vits_cf_number_of_answers_field_callback_function(58);
 }
 
+function vits_cf_available_for_beginner_field_callback_function_58()
+{
+    vits_cf_available_for_beginner_field_callback_function(58);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_58()
+{
+    vits_cf_available_for_intermediate_field_callback_function(58);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_58()
+{
+    vits_cf_available_for_nerd_field_callback_function(58);
+}
+
 function vits_cf_answer_field_callback_function_58_0()
 {
     vits_cf_answer_field_callback_function(58, 0);
@@ -6799,6 +7684,21 @@ function vits_cf_question_field_callback_function_59()
 function vits_cf_number_of_answers_field_callback_function_59()
 {
     vits_cf_number_of_answers_field_callback_function(59);
+}
+
+function vits_cf_available_for_beginner_field_callback_function_59()
+{
+    vits_cf_available_for_beginner_field_callback_function(59);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_59()
+{
+    vits_cf_available_for_intermediate_field_callback_function(59);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_59()
+{
+    vits_cf_available_for_nerd_field_callback_function(59);
 }
 
 function vits_cf_answer_field_callback_function_59_0()
@@ -6916,6 +7816,21 @@ function vits_cf_number_of_answers_field_callback_function_60()
     vits_cf_number_of_answers_field_callback_function(60);
 }
 
+function vits_cf_available_for_beginner_field_callback_function_60()
+{
+    vits_cf_available_for_beginner_field_callback_function(60);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_60()
+{
+    vits_cf_available_for_intermediate_field_callback_function(60);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_60()
+{
+    vits_cf_available_for_nerd_field_callback_function(60);
+}
+
 function vits_cf_answer_field_callback_function_60_0()
 {
     vits_cf_answer_field_callback_function(60, 0);
@@ -7029,6 +7944,21 @@ function vits_cf_question_field_callback_function_61()
 function vits_cf_number_of_answers_field_callback_function_61()
 {
     vits_cf_number_of_answers_field_callback_function(61);
+}
+
+function vits_cf_available_for_beginner_field_callback_function_61()
+{
+    vits_cf_available_for_beginner_field_callback_function(61);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_61()
+{
+    vits_cf_available_for_intermediate_field_callback_function(61);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_61()
+{
+    vits_cf_available_for_nerd_field_callback_function(61);
 }
 
 function vits_cf_answer_field_callback_function_61_0()
@@ -7146,6 +8076,21 @@ function vits_cf_number_of_answers_field_callback_function_62()
     vits_cf_number_of_answers_field_callback_function(62);
 }
 
+function vits_cf_available_for_beginner_field_callback_function_62()
+{
+    vits_cf_available_for_beginner_field_callback_function(62);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_62()
+{
+    vits_cf_available_for_intermediate_field_callback_function(62);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_62()
+{
+    vits_cf_available_for_nerd_field_callback_function(62);
+}
+
 function vits_cf_answer_field_callback_function_62_0()
 {
     vits_cf_answer_field_callback_function(62, 0);
@@ -7259,6 +8204,21 @@ function vits_cf_question_field_callback_function_63()
 function vits_cf_number_of_answers_field_callback_function_63()
 {
     vits_cf_number_of_answers_field_callback_function(63);
+}
+
+function vits_cf_available_for_beginner_field_callback_function_63()
+{
+    vits_cf_available_for_beginner_field_callback_function(63);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_63()
+{
+    vits_cf_available_for_intermediate_field_callback_function(63);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_63()
+{
+    vits_cf_available_for_nerd_field_callback_function(63);
 }
 
 function vits_cf_answer_field_callback_function_63_0()
@@ -7376,6 +8336,21 @@ function vits_cf_number_of_answers_field_callback_function_64()
     vits_cf_number_of_answers_field_callback_function(64);
 }
 
+function vits_cf_available_for_beginner_field_callback_function_64()
+{
+    vits_cf_available_for_beginner_field_callback_function(64);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_64()
+{
+    vits_cf_available_for_intermediate_field_callback_function(64);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_64()
+{
+    vits_cf_available_for_nerd_field_callback_function(64);
+}
+
 function vits_cf_answer_field_callback_function_64_0()
 {
     vits_cf_answer_field_callback_function(64, 0);
@@ -7489,6 +8464,21 @@ function vits_cf_question_field_callback_function_65()
 function vits_cf_number_of_answers_field_callback_function_65()
 {
     vits_cf_number_of_answers_field_callback_function(65);
+}
+
+function vits_cf_available_for_beginner_field_callback_function_65()
+{
+    vits_cf_available_for_beginner_field_callback_function(65);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_65()
+{
+    vits_cf_available_for_intermediate_field_callback_function(65);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_65()
+{
+    vits_cf_available_for_nerd_field_callback_function(65);
 }
 
 function vits_cf_answer_field_callback_function_65_0()
@@ -7606,6 +8596,21 @@ function vits_cf_number_of_answers_field_callback_function_66()
     vits_cf_number_of_answers_field_callback_function(66);
 }
 
+function vits_cf_available_for_beginner_field_callback_function_66()
+{
+    vits_cf_available_for_beginner_field_callback_function(66);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_66()
+{
+    vits_cf_available_for_intermediate_field_callback_function(66);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_66()
+{
+    vits_cf_available_for_nerd_field_callback_function(66);
+}
+
 function vits_cf_answer_field_callback_function_66_0()
 {
     vits_cf_answer_field_callback_function(66, 0);
@@ -7719,6 +8724,21 @@ function vits_cf_question_field_callback_function_67()
 function vits_cf_number_of_answers_field_callback_function_67()
 {
     vits_cf_number_of_answers_field_callback_function(67);
+}
+
+function vits_cf_available_for_beginner_field_callback_function_67()
+{
+    vits_cf_available_for_beginner_field_callback_function(67);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_67()
+{
+    vits_cf_available_for_intermediate_field_callback_function(67);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_67()
+{
+    vits_cf_available_for_nerd_field_callback_function(67);
 }
 
 function vits_cf_answer_field_callback_function_67_0()
@@ -7836,6 +8856,21 @@ function vits_cf_number_of_answers_field_callback_function_68()
     vits_cf_number_of_answers_field_callback_function(68);
 }
 
+function vits_cf_available_for_beginner_field_callback_function_68()
+{
+    vits_cf_available_for_beginner_field_callback_function(68);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_68()
+{
+    vits_cf_available_for_intermediate_field_callback_function(68);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_68()
+{
+    vits_cf_available_for_nerd_field_callback_function(68);
+}
+
 function vits_cf_answer_field_callback_function_68_0()
 {
     vits_cf_answer_field_callback_function(68, 0);
@@ -7949,6 +8984,21 @@ function vits_cf_question_field_callback_function_69()
 function vits_cf_number_of_answers_field_callback_function_69()
 {
     vits_cf_number_of_answers_field_callback_function(69);
+}
+
+function vits_cf_available_for_beginner_field_callback_function_69()
+{
+    vits_cf_available_for_beginner_field_callback_function(69);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_69()
+{
+    vits_cf_available_for_intermediate_field_callback_function(69);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_69()
+{
+    vits_cf_available_for_nerd_field_callback_function(69);
 }
 
 function vits_cf_answer_field_callback_function_69_0()
@@ -8066,6 +9116,21 @@ function vits_cf_number_of_answers_field_callback_function_70()
     vits_cf_number_of_answers_field_callback_function(70);
 }
 
+function vits_cf_available_for_beginner_field_callback_function_70()
+{
+    vits_cf_available_for_beginner_field_callback_function(70);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_70()
+{
+    vits_cf_available_for_intermediate_field_callback_function(70);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_70()
+{
+    vits_cf_available_for_nerd_field_callback_function(70);
+}
+
 function vits_cf_answer_field_callback_function_70_0()
 {
     vits_cf_answer_field_callback_function(70, 0);
@@ -8179,6 +9244,21 @@ function vits_cf_question_field_callback_function_71()
 function vits_cf_number_of_answers_field_callback_function_71()
 {
     vits_cf_number_of_answers_field_callback_function(71);
+}
+
+function vits_cf_available_for_beginner_field_callback_function_71()
+{
+    vits_cf_available_for_beginner_field_callback_function(71);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_71()
+{
+    vits_cf_available_for_intermediate_field_callback_function(71);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_71()
+{
+    vits_cf_available_for_nerd_field_callback_function(71);
 }
 
 function vits_cf_answer_field_callback_function_71_0()
@@ -8296,6 +9376,21 @@ function vits_cf_number_of_answers_field_callback_function_72()
     vits_cf_number_of_answers_field_callback_function(72);
 }
 
+function vits_cf_available_for_beginner_field_callback_function_72()
+{
+    vits_cf_available_for_beginner_field_callback_function(72);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_72()
+{
+    vits_cf_available_for_intermediate_field_callback_function(72);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_72()
+{
+    vits_cf_available_for_nerd_field_callback_function(72);
+}
+
 function vits_cf_answer_field_callback_function_72_0()
 {
     vits_cf_answer_field_callback_function(72, 0);
@@ -8409,6 +9504,21 @@ function vits_cf_question_field_callback_function_73()
 function vits_cf_number_of_answers_field_callback_function_73()
 {
     vits_cf_number_of_answers_field_callback_function(73);
+}
+
+function vits_cf_available_for_beginner_field_callback_function_73()
+{
+    vits_cf_available_for_beginner_field_callback_function(73);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_73()
+{
+    vits_cf_available_for_intermediate_field_callback_function(73);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_73()
+{
+    vits_cf_available_for_nerd_field_callback_function(73);
 }
 
 function vits_cf_answer_field_callback_function_73_0()
@@ -8526,6 +9636,21 @@ function vits_cf_number_of_answers_field_callback_function_74()
     vits_cf_number_of_answers_field_callback_function(74);
 }
 
+function vits_cf_available_for_beginner_field_callback_function_74()
+{
+    vits_cf_available_for_beginner_field_callback_function(74);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_74()
+{
+    vits_cf_available_for_intermediate_field_callback_function(74);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_74()
+{
+    vits_cf_available_for_nerd_field_callback_function(74);
+}
+
 function vits_cf_answer_field_callback_function_74_0()
 {
     vits_cf_answer_field_callback_function(74, 0);
@@ -8639,6 +9764,21 @@ function vits_cf_question_field_callback_function_75()
 function vits_cf_number_of_answers_field_callback_function_75()
 {
     vits_cf_number_of_answers_field_callback_function(75);
+}
+
+function vits_cf_available_for_beginner_field_callback_function_75()
+{
+    vits_cf_available_for_beginner_field_callback_function(75);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_75()
+{
+    vits_cf_available_for_intermediate_field_callback_function(75);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_75()
+{
+    vits_cf_available_for_nerd_field_callback_function(75);
 }
 
 function vits_cf_answer_field_callback_function_75_0()
@@ -8756,6 +9896,21 @@ function vits_cf_number_of_answers_field_callback_function_76()
     vits_cf_number_of_answers_field_callback_function(76);
 }
 
+function vits_cf_available_for_beginner_field_callback_function_76()
+{
+    vits_cf_available_for_beginner_field_callback_function(76);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_76()
+{
+    vits_cf_available_for_intermediate_field_callback_function(76);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_76()
+{
+    vits_cf_available_for_nerd_field_callback_function(76);
+}
+
 function vits_cf_answer_field_callback_function_76_0()
 {
     vits_cf_answer_field_callback_function(76, 0);
@@ -8869,6 +10024,21 @@ function vits_cf_question_field_callback_function_77()
 function vits_cf_number_of_answers_field_callback_function_77()
 {
     vits_cf_number_of_answers_field_callback_function(77);
+}
+
+function vits_cf_available_for_beginner_field_callback_function_77()
+{
+    vits_cf_available_for_beginner_field_callback_function(77);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_77()
+{
+    vits_cf_available_for_intermediate_field_callback_function(77);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_77()
+{
+    vits_cf_available_for_nerd_field_callback_function(77);
 }
 
 function vits_cf_answer_field_callback_function_77_0()
@@ -8986,6 +10156,21 @@ function vits_cf_number_of_answers_field_callback_function_78()
     vits_cf_number_of_answers_field_callback_function(78);
 }
 
+function vits_cf_available_for_beginner_field_callback_function_78()
+{
+    vits_cf_available_for_beginner_field_callback_function(78);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_78()
+{
+    vits_cf_available_for_intermediate_field_callback_function(78);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_78()
+{
+    vits_cf_available_for_nerd_field_callback_function(78);
+}
+
 function vits_cf_answer_field_callback_function_78_0()
 {
     vits_cf_answer_field_callback_function(78, 0);
@@ -9099,6 +10284,21 @@ function vits_cf_question_field_callback_function_79()
 function vits_cf_number_of_answers_field_callback_function_79()
 {
     vits_cf_number_of_answers_field_callback_function(79);
+}
+
+function vits_cf_available_for_beginner_field_callback_function_79()
+{
+    vits_cf_available_for_beginner_field_callback_function(79);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_79()
+{
+    vits_cf_available_for_intermediate_field_callback_function(79);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_79()
+{
+    vits_cf_available_for_nerd_field_callback_function(79);
 }
 
 function vits_cf_answer_field_callback_function_79_0()
@@ -9216,6 +10416,21 @@ function vits_cf_number_of_answers_field_callback_function_80()
     vits_cf_number_of_answers_field_callback_function(80);
 }
 
+function vits_cf_available_for_beginner_field_callback_function_80()
+{
+    vits_cf_available_for_beginner_field_callback_function(80);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_80()
+{
+    vits_cf_available_for_intermediate_field_callback_function(80);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_80()
+{
+    vits_cf_available_for_nerd_field_callback_function(80);
+}
+
 function vits_cf_answer_field_callback_function_80_0()
 {
     vits_cf_answer_field_callback_function(80, 0);
@@ -9329,6 +10544,21 @@ function vits_cf_question_field_callback_function_81()
 function vits_cf_number_of_answers_field_callback_function_81()
 {
     vits_cf_number_of_answers_field_callback_function(81);
+}
+
+function vits_cf_available_for_beginner_field_callback_function_81()
+{
+    vits_cf_available_for_beginner_field_callback_function(81);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_81()
+{
+    vits_cf_available_for_intermediate_field_callback_function(81);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_81()
+{
+    vits_cf_available_for_nerd_field_callback_function(81);
 }
 
 function vits_cf_answer_field_callback_function_81_0()
@@ -9446,6 +10676,21 @@ function vits_cf_number_of_answers_field_callback_function_82()
     vits_cf_number_of_answers_field_callback_function(82);
 }
 
+function vits_cf_available_for_beginner_field_callback_function_82()
+{
+    vits_cf_available_for_beginner_field_callback_function(82);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_82()
+{
+    vits_cf_available_for_intermediate_field_callback_function(82);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_82()
+{
+    vits_cf_available_for_nerd_field_callback_function(82);
+}
+
 function vits_cf_answer_field_callback_function_82_0()
 {
     vits_cf_answer_field_callback_function(82, 0);
@@ -9559,6 +10804,21 @@ function vits_cf_question_field_callback_function_83()
 function vits_cf_number_of_answers_field_callback_function_83()
 {
     vits_cf_number_of_answers_field_callback_function(83);
+}
+
+function vits_cf_available_for_beginner_field_callback_function_83()
+{
+    vits_cf_available_for_beginner_field_callback_function(83);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_83()
+{
+    vits_cf_available_for_intermediate_field_callback_function(83);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_83()
+{
+    vits_cf_available_for_nerd_field_callback_function(83);
 }
 
 function vits_cf_answer_field_callback_function_83_0()
@@ -9676,6 +10936,21 @@ function vits_cf_number_of_answers_field_callback_function_84()
     vits_cf_number_of_answers_field_callback_function(84);
 }
 
+function vits_cf_available_for_beginner_field_callback_function_84()
+{
+    vits_cf_available_for_beginner_field_callback_function(84);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_84()
+{
+    vits_cf_available_for_intermediate_field_callback_function(84);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_84()
+{
+    vits_cf_available_for_nerd_field_callback_function(84);
+}
+
 function vits_cf_answer_field_callback_function_84_0()
 {
     vits_cf_answer_field_callback_function(84, 0);
@@ -9789,6 +11064,21 @@ function vits_cf_question_field_callback_function_85()
 function vits_cf_number_of_answers_field_callback_function_85()
 {
     vits_cf_number_of_answers_field_callback_function(85);
+}
+
+function vits_cf_available_for_beginner_field_callback_function_85()
+{
+    vits_cf_available_for_beginner_field_callback_function(85);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_85()
+{
+    vits_cf_available_for_intermediate_field_callback_function(85);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_85()
+{
+    vits_cf_available_for_nerd_field_callback_function(85);
 }
 
 function vits_cf_answer_field_callback_function_85_0()
@@ -9906,6 +11196,21 @@ function vits_cf_number_of_answers_field_callback_function_86()
     vits_cf_number_of_answers_field_callback_function(86);
 }
 
+function vits_cf_available_for_beginner_field_callback_function_86()
+{
+    vits_cf_available_for_beginner_field_callback_function(86);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_86()
+{
+    vits_cf_available_for_intermediate_field_callback_function(86);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_86()
+{
+    vits_cf_available_for_nerd_field_callback_function(86);
+}
+
 function vits_cf_answer_field_callback_function_86_0()
 {
     vits_cf_answer_field_callback_function(86, 0);
@@ -10019,6 +11324,21 @@ function vits_cf_question_field_callback_function_87()
 function vits_cf_number_of_answers_field_callback_function_87()
 {
     vits_cf_number_of_answers_field_callback_function(87);
+}
+
+function vits_cf_available_for_beginner_field_callback_function_87()
+{
+    vits_cf_available_for_beginner_field_callback_function(87);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_87()
+{
+    vits_cf_available_for_intermediate_field_callback_function(87);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_87()
+{
+    vits_cf_available_for_nerd_field_callback_function(87);
 }
 
 function vits_cf_answer_field_callback_function_87_0()
@@ -10136,6 +11456,21 @@ function vits_cf_number_of_answers_field_callback_function_88()
     vits_cf_number_of_answers_field_callback_function(88);
 }
 
+function vits_cf_available_for_beginner_field_callback_function_88()
+{
+    vits_cf_available_for_beginner_field_callback_function(88);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_88()
+{
+    vits_cf_available_for_intermediate_field_callback_function(88);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_88()
+{
+    vits_cf_available_for_nerd_field_callback_function(88);
+}
+
 function vits_cf_answer_field_callback_function_88_0()
 {
     vits_cf_answer_field_callback_function(88, 0);
@@ -10249,6 +11584,21 @@ function vits_cf_question_field_callback_function_89()
 function vits_cf_number_of_answers_field_callback_function_89()
 {
     vits_cf_number_of_answers_field_callback_function(89);
+}
+
+function vits_cf_available_for_beginner_field_callback_function_89()
+{
+    vits_cf_available_for_beginner_field_callback_function(89);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_89()
+{
+    vits_cf_available_for_intermediate_field_callback_function(89);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_89()
+{
+    vits_cf_available_for_nerd_field_callback_function(89);
 }
 
 function vits_cf_answer_field_callback_function_89_0()
@@ -10366,6 +11716,21 @@ function vits_cf_number_of_answers_field_callback_function_90()
     vits_cf_number_of_answers_field_callback_function(90);
 }
 
+function vits_cf_available_for_beginner_field_callback_function_90()
+{
+    vits_cf_available_for_beginner_field_callback_function(90);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_90()
+{
+    vits_cf_available_for_intermediate_field_callback_function(90);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_90()
+{
+    vits_cf_available_for_nerd_field_callback_function(90);
+}
+
 function vits_cf_answer_field_callback_function_90_0()
 {
     vits_cf_answer_field_callback_function(90, 0);
@@ -10479,6 +11844,21 @@ function vits_cf_question_field_callback_function_91()
 function vits_cf_number_of_answers_field_callback_function_91()
 {
     vits_cf_number_of_answers_field_callback_function(91);
+}
+
+function vits_cf_available_for_beginner_field_callback_function_91()
+{
+    vits_cf_available_for_beginner_field_callback_function(91);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_91()
+{
+    vits_cf_available_for_intermediate_field_callback_function(91);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_91()
+{
+    vits_cf_available_for_nerd_field_callback_function(91);
 }
 
 function vits_cf_answer_field_callback_function_91_0()
@@ -10596,6 +11976,21 @@ function vits_cf_number_of_answers_field_callback_function_92()
     vits_cf_number_of_answers_field_callback_function(92);
 }
 
+function vits_cf_available_for_beginner_field_callback_function_92()
+{
+    vits_cf_available_for_beginner_field_callback_function(92);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_92()
+{
+    vits_cf_available_for_intermediate_field_callback_function(92);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_92()
+{
+    vits_cf_available_for_nerd_field_callback_function(92);
+}
+
 function vits_cf_answer_field_callback_function_92_0()
 {
     vits_cf_answer_field_callback_function(92, 0);
@@ -10709,6 +12104,21 @@ function vits_cf_question_field_callback_function_93()
 function vits_cf_number_of_answers_field_callback_function_93()
 {
     vits_cf_number_of_answers_field_callback_function(93);
+}
+
+function vits_cf_available_for_beginner_field_callback_function_93()
+{
+    vits_cf_available_for_beginner_field_callback_function(93);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_93()
+{
+    vits_cf_available_for_intermediate_field_callback_function(93);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_93()
+{
+    vits_cf_available_for_nerd_field_callback_function(93);
 }
 
 function vits_cf_answer_field_callback_function_93_0()
@@ -10826,6 +12236,21 @@ function vits_cf_number_of_answers_field_callback_function_94()
     vits_cf_number_of_answers_field_callback_function(94);
 }
 
+function vits_cf_available_for_beginner_field_callback_function_94()
+{
+    vits_cf_available_for_beginner_field_callback_function(94);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_94()
+{
+    vits_cf_available_for_intermediate_field_callback_function(94);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_94()
+{
+    vits_cf_available_for_nerd_field_callback_function(94);
+}
+
 function vits_cf_answer_field_callback_function_94_0()
 {
     vits_cf_answer_field_callback_function(94, 0);
@@ -10939,6 +12364,21 @@ function vits_cf_question_field_callback_function_95()
 function vits_cf_number_of_answers_field_callback_function_95()
 {
     vits_cf_number_of_answers_field_callback_function(95);
+}
+
+function vits_cf_available_for_beginner_field_callback_function_95()
+{
+    vits_cf_available_for_beginner_field_callback_function(95);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_95()
+{
+    vits_cf_available_for_intermediate_field_callback_function(95);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_95()
+{
+    vits_cf_available_for_nerd_field_callback_function(95);
 }
 
 function vits_cf_answer_field_callback_function_95_0()
@@ -11056,6 +12496,21 @@ function vits_cf_number_of_answers_field_callback_function_96()
     vits_cf_number_of_answers_field_callback_function(96);
 }
 
+function vits_cf_available_for_beginner_field_callback_function_96()
+{
+    vits_cf_available_for_beginner_field_callback_function(96);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_96()
+{
+    vits_cf_available_for_intermediate_field_callback_function(96);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_96()
+{
+    vits_cf_available_for_nerd_field_callback_function(96);
+}
+
 function vits_cf_answer_field_callback_function_96_0()
 {
     vits_cf_answer_field_callback_function(96, 0);
@@ -11169,6 +12624,21 @@ function vits_cf_question_field_callback_function_97()
 function vits_cf_number_of_answers_field_callback_function_97()
 {
     vits_cf_number_of_answers_field_callback_function(97);
+}
+
+function vits_cf_available_for_beginner_field_callback_function_97()
+{
+    vits_cf_available_for_beginner_field_callback_function(97);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_97()
+{
+    vits_cf_available_for_intermediate_field_callback_function(97);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_97()
+{
+    vits_cf_available_for_nerd_field_callback_function(97);
 }
 
 function vits_cf_answer_field_callback_function_97_0()
@@ -11286,6 +12756,21 @@ function vits_cf_number_of_answers_field_callback_function_98()
     vits_cf_number_of_answers_field_callback_function(98);
 }
 
+function vits_cf_available_for_beginner_field_callback_function_98()
+{
+    vits_cf_available_for_beginner_field_callback_function(98);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_98()
+{
+    vits_cf_available_for_intermediate_field_callback_function(98);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_98()
+{
+    vits_cf_available_for_nerd_field_callback_function(98);
+}
+
 function vits_cf_answer_field_callback_function_98_0()
 {
     vits_cf_answer_field_callback_function(98, 0);
@@ -11399,6 +12884,21 @@ function vits_cf_question_field_callback_function_99()
 function vits_cf_number_of_answers_field_callback_function_99()
 {
     vits_cf_number_of_answers_field_callback_function(99);
+}
+
+function vits_cf_available_for_beginner_field_callback_function_99()
+{
+    vits_cf_available_for_beginner_field_callback_function(99);
+}
+
+function vits_cf_available_for_intermediate_field_callback_function_99()
+{
+    vits_cf_available_for_intermediate_field_callback_function(99);
+}
+
+function vits_cf_available_for_nerd_field_callback_function_99()
+{
+    vits_cf_available_for_nerd_field_callback_function(99);
 }
 
 function vits_cf_answer_field_callback_function_99_0()
