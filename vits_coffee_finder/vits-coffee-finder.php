@@ -78,6 +78,11 @@
         <div class="questionText">
             <?php echo htmlspecialchars($vitsCfCurrentQuestion->getQuestionText()); ?>
         </div>
+        <?php if ($vitsCfCurrentQuestion->getFlavourText() != ""): ?>
+            <div class="flavourText">
+                <?php echo htmlspecialchars($vitsCfCurrentQuestion->getFlavourText()); ?>
+            </div>
+        <?php endif; ?>
         <div class="form">
             <form action="<?php $_PHP_SELF ?>" method="GET">
                 <div class="answerOptions">

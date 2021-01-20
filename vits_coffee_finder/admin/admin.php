@@ -17,8 +17,14 @@ function vits_cf_question_field_callback_function($i)
         get_option('vits_cf_question_field_' . $i, '') . "'/>";
 }
 
-function vits_cf_question_section_callback_function($i)
+function vits_cf_question_section_callback_function()
 {
+}
+
+// only on question 0
+function vits_cf_flavour_field_callback_function()
+{
+    echo "<textarea name='vits_cf_flavour_field' class='vits_cf_flavour_field' id='vits_cf_flavour_field' rows=4>" . get_option('vits_cf_flavour_field', '') . "</textarea>";
 }
 
 function vits_cf_number_of_answers_field_callback_function($i)
@@ -100,6 +106,19 @@ function vits_cf_setup_admin_plugin()
                 ]
             );
             register_setting('question_group', 'vits_cf_question_field_' . $i);
+            if ($i == 0) {
+                add_settings_field(
+                    'vits_cf_flavour_field',
+                    'Flavour Text',
+                    'vits_cf_flavour_field_callback_function',
+                    'reading',
+                    'vits_cf_question_section_' . $i,
+                    [
+                        'label_for' => 'vits_cf_flavour_field'
+                    ]
+                );
+                register_setting('question_group', 'vits_cf_flavour_field');
+            }
             add_settings_field(
                 'vits_cf_number_of_answers_field_' . $i,
                 'Number of Answers',
